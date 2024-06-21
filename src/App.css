@@ -1,0 +1,49 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: hsl(202, 46%, 85%);
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.align{
+  text-align: center;
+  color: aqua;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #670ae0;
+  padding: 1rem;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  z-index: 1000; 
+}
+
+.form {
+  background-color: #6cd6ed;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
